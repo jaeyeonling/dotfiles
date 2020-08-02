@@ -9,6 +9,8 @@ git clone https://github.com/jaeyeonling/dotfiles.git ~/.dotfiles && cd $_ && ./
 ```
 
 ## Reference
+[dotfiles](https://dotfiles.github.io/)
+
 [hongsii/dotfiles](https://github.com/hongsii/dotfiles)
 
 [holman/dotfiles](https://github.com/holman/dotfiles)
