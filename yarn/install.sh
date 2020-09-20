@@ -9,3 +9,4 @@ yarn global add git-open
 yarn global add pm2
 yarn global add serverless
 yarn global add speed-test
+yarn global add stacks-cli
