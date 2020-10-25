@@ -24,3 +24,5 @@ plugins=(
 
 ## Path to oh-my-zsh script
 source $ZSH/oh-my-zsh.sh
+
+export PATH=${PATH}:${HOME}/.flutter/bin
