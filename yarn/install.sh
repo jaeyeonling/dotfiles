@@ -6,6 +6,7 @@ yarn global add fkill-cli
 yarn global add gatsby-cli
 yarn global add gh-pages
 yarn global add git-open
+yarn global add git-user-switch
 yarn global add pm2
 yarn global add serverless
 yarn global add speed-test
