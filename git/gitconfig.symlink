@@ -4,7 +4,7 @@
     protocol = https
 [core]
     editor = vim
-    excludesfile = ~/.gitignore
+	excludesfile = /Users/jaeyeonling/.gitignore
     autocrlf = input
 [color]
     diff = always
@@ -15,3 +15,22 @@
 [credential]
     helper = osxkeychain
 
+[includeIf "gitdir:~/workplace/git.superbcorp"]
+  path = .gitconfig-superbcorp
+
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	name = jaeyeonling
+	email = jaeyeonling@gmail.com
+[commit]
+	template = /Users/jaeyeonling/.stCommitMsg
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
