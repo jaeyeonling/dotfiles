@@ -15,7 +15,7 @@
 [credential]
     helper = osxkeychain
 
-[includeIf "gitdir:~/workplace/git.superbcorp"]
+[includeIf "gitdir:~/workplace/git.superbcorp/"]
   path = .gitconfig-superbcorp
 
 [difftool "sourcetree"]
